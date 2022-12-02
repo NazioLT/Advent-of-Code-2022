@@ -10,8 +10,8 @@ namespace HennoTheo.Day1
         [ContextMenu("Execute")]
         private void Execute()//205381
         {
-            string[] _stringPart = input.text.Split('\n');
-            List<int> _calories = Day1ExtensionClass.GetCaloriesForEachElf(_stringPart);
+            string[] _stringParts = input.text.Split('\n');
+            List<int> _calories = Day1ExtensionClass.GetCaloriesForEachElf(_stringParts);
             _calories.Sort();
             _calories.Reverse();
             int _top3Total = _calories[0] + _calories[1] + _calories[2];

@@ -10,8 +10,8 @@ namespace HennoTheo.Day1
         [ContextMenu("Execute")]
         private void Execute()//70296
         {
-            string[] _stringPart = input.text.Split('\n');
-            List<int> _calories = Day1ExtensionClass.GetCaloriesForEachElf(_stringPart);
+            string[] _stringParts = input.text.Split('\n');
+            List<int> _calories = Day1ExtensionClass.GetCaloriesForEachElf(_stringParts);
 
             int _targetElfCalories = Day1ExtensionClass.FindMaximum(_calories, out int _targetElfID);
             
