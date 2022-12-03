@@ -11,7 +11,7 @@ namespace HennoTheo.Day2
         [SerializeField] private TextAsset input;
 
         [ContextMenu("Execute")]
-        private void Execute()//70296
+        private void Execute()//11666
         {
             Match[] _matches = GetMatches(input.text);
             int _playerPoints = Day2ExtensionClass.GetTotalMatchPoints(_matches);

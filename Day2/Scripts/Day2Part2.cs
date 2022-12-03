@@ -17,7 +17,7 @@ namespace HennoTheo.Day2
         };
 
         [ContextMenu("Execute")]
-        private void Execute()//70296
+        private void Execute()//12767
         {
             Match[] _matches = GetMatches(input.text);
             int _playerPoints = Day2ExtensionClass.GetTotalMatchPoints(_matches);
