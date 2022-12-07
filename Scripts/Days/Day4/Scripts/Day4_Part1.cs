@@ -1,8 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-namespace HennoTheo.Day3
+namespace HennoTheo.Day4
 {
     public class Day4_Part1 : MonoBehaviour
     {

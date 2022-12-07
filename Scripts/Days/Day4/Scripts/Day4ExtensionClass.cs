@@ -1,4 +1,4 @@
-namespace HennoTheo.Day3
+namespace HennoTheo.Day4
 {
     public static class Day4ExtensionClass
     {
