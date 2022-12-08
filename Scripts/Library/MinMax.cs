@@ -12,5 +12,6 @@ public struct MinMax
     public bool Contains(int _value) => _value >= min && _value <= max;
     public bool Contains(MinMax _content) => Contains(_content.min) && Contains(_content.max);
     public bool Overlap(MinMax _content) => Contains(_content.min) || Contains(_content.max);
+
     public string Text => $"Min : {min} / Max : {max}";
 }
